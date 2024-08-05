@@ -1,0 +1,39 @@
+{
+  "name": "animethemes.moe",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript wrapper for the AnimeThemes.Moe API, providing easy access to anime themes and related data",
+  "keywords": [
+    "anime",
+    "themes",
+    "animethemes",
+    "moe",
+    "animethemes.moe",
+    "api-wrapper",
+    "javascript",
+    "npm-package",
+    "anime-music",
+    "anime-api",
+    "anime-themes-api",
+    "js-wrapper"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thullyDev/animethemes.moe.git"
+  },
+  "author": "thullyDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thullyDev/animethemes.moe/issues"
+  },
+  "homepage": "https://github.com/thullyDev/animethemes.moe#readme",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
