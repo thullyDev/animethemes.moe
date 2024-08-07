@@ -1,3 +1,3 @@
-export function helloword() {
-	console.log("helloword")
-}
+import { searchTheme } from "./animethemes";
+
+export { searchTheme };

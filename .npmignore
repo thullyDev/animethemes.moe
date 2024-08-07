@@ -1,7 +1,7 @@
 node_modules
+test
 src
 todo.txt
 notes.txt
-
 tsconfig.json
 tsup.config.ts
