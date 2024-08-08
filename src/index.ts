@@ -1,3 +1,3 @@
-import { searchTheme } from "./animethemes";
+import { getAnime, searchTheme } from "./animethemes";
 
-export { searchTheme };
+export { searchTheme, getAnime };

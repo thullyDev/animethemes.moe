@@ -1,5 +1,5 @@
 import axios, { type AxiosResponse } from "axios";
-import { CRASH, CRASH_MSG, SUCCESSFUL } from "../utilities/errors";
+import { SUCCESSFUL } from "../utilities/errors";
 import { ApiHandlerResponse, PamaterOptions } from "../types/apiHandlersTypes";
 
 export class ApiHandler {
@@ -24,7 +24,6 @@ export class ApiHandler {
     params: PamaterOptions = {},
   ): Promise<ApiHandlerResponse | null> {
     const url = this.buildUrl(this.BASE + endpoint, params);
-    console.log(url);
 
     try {
       const response: AxiosResponse<any> = await axios.request({

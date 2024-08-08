@@ -18,6 +18,10 @@ export type SearchAnimethemesApiResponse = {
   };
 };
 
+export type GetAnimethemesApiRespone = {
+  anime: AnimeInstance;
+};
+
 export type AnimeInstance = {
   id: number;
   name: string;
